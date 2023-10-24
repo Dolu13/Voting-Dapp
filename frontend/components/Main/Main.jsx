@@ -25,7 +25,7 @@ const Main = () => {
     const [ping, setPing] = useState(false);
     const [tempPropositionDescription, setTempPropositionDescription] = useState(''); 
 
-    const contractAddress = "0x4b6aB5F819A515382B0dEB6935D793817bB4af28";
+    const contractAddress = "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512";
 
 
     useEffect(() => {
@@ -387,7 +387,7 @@ const Main = () => {
                 <AlertIcon />
                 Veuillez vous connecter à votre portefeuille.
             </Alert>
-        )});
+        )}
         </>
 )};
 
